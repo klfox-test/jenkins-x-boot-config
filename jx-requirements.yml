@@ -1,22 +1,22 @@
 cluster:
-  clusterName: ""
-  environmentGitOwner: ""
-  project: ""
+  clusterName: iccjx-dev
+  environmentGitOwner: klfox-test
+  project: jx-cluster-245615
   provider: gke
-  zone: ""
+  zone: us-central1-b
 environments:
 - key: dev
 - key: staging
 - key: production
 ingress:
-  domain: ""
+  domain: 35.224.49.220.nip.io
   externalDNS: false
   tls:
     email: ""
     enabled: false
     production: false
 kaniko: true
-secretStorage: local
+secretStorage: vault
 storage:
   logs:
     enabled: false
