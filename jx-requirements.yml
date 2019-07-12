@@ -4,6 +4,7 @@ cluster:
   project: jx-cluster-245615
   provider: gke
   zone: us-central1-b
+gitops: true
 environments:
 - key: dev
 - key: staging
@@ -27,3 +28,4 @@ storage:
   repository:
     enabled: false
     url: ""
+webhook: prow
