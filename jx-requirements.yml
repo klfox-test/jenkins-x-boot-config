@@ -4,11 +4,11 @@ cluster:
   project: jx-cluster-245615
   provider: gke
   zone: us-central1-b
-gitops: true
 environments:
 - key: dev
 - key: staging
 - key: production
+gitops: true
 ingress:
   domain: 35.224.49.220.nip.io
   externalDNS: false

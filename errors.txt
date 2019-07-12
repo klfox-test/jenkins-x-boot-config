@@ -1,0 +1,2 @@
+*** jx-vault-iccjx-dev
+error while evaluating the ingress spec: service "jx/jx-vault-iccjx-dev" is type "ClusterIP", expected "NodePort" or "LoadBalancer"
