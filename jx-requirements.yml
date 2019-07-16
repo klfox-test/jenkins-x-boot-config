@@ -1,7 +1,7 @@
 cluster:
-  clusterName: iccjx-dev
+  clusterName: icc-jx-dev
   environmentGitOwner: klfox-test
-  project: jx-cluster-245615
+  project: jx-cluster-246918
   provider: gke
   zone: us-central1-b
 environments:
@@ -10,7 +10,7 @@ environments:
 - key: production
 gitops: true
 ingress:
-  domain: 35.224.49.220.nip.io
+  domain: 35.188.193.208.nip.io
   externalDNS: false
   tls:
     email: ""
@@ -28,4 +28,7 @@ storage:
   repository:
     enabled: false
     url: ""
+versionStream:
+  ref: master
+  url: https://github.com/jenkins-x/jenkins-x-versions.git
 webhook: prow
